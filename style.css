@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(18, 23, 36);
+  color: transparent;
+  text-shadow: 0px 0px 1.3px rgb(63, 119, 138);
+}
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  text-align: center;
+}
+button{
+  padding: 4px;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 0px 3px rgb(36, 69, 80);
+  border-radius: 5px;
+  color: rgb(36, 69, 80);
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+h1{
+  display: inline;
+  font-size: 90px;
+}
+button:focus{
+  outline: none;
+}
+button:active{
+  transform: scale(1.2);
+}
